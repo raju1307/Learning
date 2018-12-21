@@ -222,14 +222,5 @@ public class HamburgerMenu {
         }
     }
 
-    public void shareApp(ExtentTest report, SingleRunReport pcloudyreport, DeviceContext myContext) throws Exception {
-        try {
-            hamburgerObjects.shareElement.click();
-        } catch (Exception e) {
-            webDriverListener.captureScreenShot("HamburgerMenu", "shareApp");
-            report.log(LogStatus.FAIL, "shareApp Not Verified in Postpaid number");
-            pcloudyreport.addStep("Click", null, "Optionl" + " Not Verified in Prepaid number", ExecutionResult.Fail);
-            Assert.assertTrue(false, e.getMessage());
-        }
-    }
+   
 }
