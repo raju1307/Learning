@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [TestNG Forum]" parallel="tests" data-provider-thread-count="1">
+  <listeners>
+    <listener class-name="com.appium.manager.AppiumParallelTestListener"/>
+    <listener class-name="com.appium.utils.RetryListener"/>
+  </listeners>
+  <test name="TestNG Test0(failed)" parallel="tests">
+    <parameter name="hostName" value="127.0.0.1"/>
+    <parameter name="device" value="ZW2227DTGP"/>
+    <classes>
+      <class name="com.vodafoneidea.mva.test.launchAppTest">
+        <methods>
+          <include name="testAppLaunch"/>
+        </methods>
+      </class> <!-- com.vodafoneidea.mva.test.launchAppTest -->
+    </classes>
+  </test> <!-- TestNG Test0(failed) -->
+</suite> <!-- Failed suite [TestNG Forum] -->

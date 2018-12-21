@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [pCloudy Suite]" parallel="tests">
+  <test name="test_Samsung Galaxy S8 8.0.0(failed)" parallel="tests">
+    <parameter name="myDeviceContext" value="Samsung Galaxy S8 8.0.0"/>
+    <classes>
+      <class name="com.vodafoneidea.mva.test.launchAppTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="LaunchPostPaidNumber" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.vodafoneidea.mva.test.launchAppTest -->
+    </classes>
+  </test> <!-- test_Samsung Galaxy S8 8.0.0(failed) -->
+  <test name="test_Samsung Galaxy A9 Pro 7.0.0(failed)" parallel="tests">
+    <parameter name="myDeviceContext" value="Samsung Galaxy A9 Pro 7.0.0"/>
+    <classes>
+      <class name="com.vodafoneidea.mva.test.launchAppTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="LaunchPostPaidNumber" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.vodafoneidea.mva.test.launchAppTest -->
+    </classes>
+  </test> <!-- test_Samsung Galaxy A9 Pro 7.0.0(failed) -->
+</suite> <!-- Failed suite [pCloudy Suite] -->

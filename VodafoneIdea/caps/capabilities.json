@@ -1,0 +1,37 @@
+{
+  "android": {
+    "platformName": "android",
+    "platformVersion": "7.1.0",
+    "app":"D:\\VodafoneIdea\\BAUR32_Preprod_Build_23OCT_0934PM.apk",
+    "noReset":"false",
+    "fullReset":"false",
+    "appPackage": "com.mventus.selfcare.activity",
+    "appActivity": "com.mventus.selfcare.activity.MainActivity",
+    "deviceName": "Moto C Plus",
+    "takesScreenshot": true
+  },
+  "iOS": {
+  "platformName": "iOS",
+  "browserName": "Safari",
+  "deviceName": "iPhone",
+  "usePrebuiltWDA": true,
+  "wdaLaunchTimeout": "80000",
+  "wdaConnectionTimeout": "80000",
+  "preventWDAAttachments": true,
+  "clearSystemFiles": true,
+  "shouldUseSingletonTestManager": false,
+  "simpleIsVisibleCheck": true,
+  "maxTypingFrequency": 10
+},
+  "hostMachines": [
+    {
+      "machineIP": "127.0.0.1",
+      "simulators": [
+        {
+          "deviceName": "iPhone 6",
+          "OS": "11.2"
+        }
+      ]
+    }
+  ]
+}

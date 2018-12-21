@@ -1,0 +1,80 @@
+2018-11-15 11:36:19:748 - info: [Appium] Welcome to Appium v1.8.0
+2018-11-15 11:36:19:751 - info: [Appium] Non-default server args:
+2018-11-15 11:36:19:752 - info: [Appium]   address: 127.0.0.1
+2018-11-15 11:36:19:752 - info: [Appium]   port: 1929
+2018-11-15 11:36:19:752 - info: [Appium]   log: D:\VodafoneIdea\target\appiumlogs\appium_logs.txt
+2018-11-15 11:36:19:753 - info: [Appium]   loglevel: info
+2018-11-15 11:36:19:778 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:1929
+2018-11-15 11:36:19:888 - info: [HTTP] --> GET /wd/hub/status
+2018-11-15 11:36:19:890 - info: [HTTP] {}
+2018-11-15 11:36:20:046 - info: [HTTP] <-- GET /wd/hub/status 200 149 ms - 83
+2018-11-15 11:36:20:048 - info: [HTTP] 
+2018-11-15 11:36:29:450 - info: [HTTP] --> POST /wd/hub/session
+2018-11-15 11:36:29:450 - info: [HTTP] {"desiredCapabilities":{"app":"D:\\VodafoneIdea\\BAUR32_Preprod_Build_23OCT_0934PM.apk","appPackage":"com.mventus.selfcare.activity","noReset":"false","deviceName":"Moto C Plus","fullReset":"false","appActivity":"com.mventus.selfcare.activity.MainActivity","platformVersion":"7.1.0","automationName":"UIAutomator2","takesScreenshot":true,"platformName":"Android","udid":"ZW2227DTGP","systemPort":58666},"capabilities":{"alwaysMatch":{"appium:app":"D:\\VodafoneIdea\\BAUR32_Preprod_Build_23OCT_0934PM.apk","appium:appActivity":"com.mventus.selfcare.activity.MainActivity","appium:appPackage":"com.mventus.selfcare.activity","appium:automationName":"UIAutomator2","appium:deviceName":"Moto C Plus","appium:fullReset":"false","appium:noReset":"false","platformName":"android","appium:platformVersion":"7.1.0","appium:systemPort":58666,"takesScreenshot":true,"appium:udid":"ZW2227DTGP"},"firstMatch":[{}]}}
+2018-11-15 11:36:29:455 - warn: [BaseDriver] The capabilities ["takesScreenshot"] are not standard capabilities and should have an extension prefix
+2018-11-15 11:36:29:459 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2018-11-15 11:36:29:459 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2018-11-15 11:36:29:463 - info: [Appium] Creating new AndroidUiautomator2Driver (v1.9.0) session
+2018-11-15 11:36:29:463 - info: [Appium] Capabilities:
+2018-11-15 11:36:29:463 - info: [Appium]   platformName: android
+2018-11-15 11:36:29:463 - info: [Appium]   takesScreenshot: true
+2018-11-15 11:36:29:463 - info: [Appium]   app: D:\VodafoneIdea\BAUR32_Preprod_Build_23OCT_0934PM.apk
+2018-11-15 11:36:29:464 - info: [Appium]   appActivity: com.mventus.selfcare.activity.MainActivity
+2018-11-15 11:36:29:465 - info: [Appium]   appPackage: com.mventus.selfcare.activity
+2018-11-15 11:36:29:465 - info: [Appium]   automationName: UIAutomator2
+2018-11-15 11:36:29:465 - info: [Appium]   deviceName: Moto C Plus
+2018-11-15 11:36:29:466 - info: [Appium]   fullReset: false
+2018-11-15 11:36:29:466 - info: [Appium]   noReset: false
+2018-11-15 11:36:29:466 - info: [Appium]   platformVersion: 7.1.0
+2018-11-15 11:36:29:466 - info: [Appium]   systemPort: 58666
+2018-11-15 11:36:29:467 - info: [Appium]   udid: ZW2227DTGP
+2018-11-15 11:36:29:473 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2018-11-15 11:36:29:473 - warn: [BaseDriver] Boolean capability passed in as string. Functionality may be compromised.
+2018-11-15 11:36:29:477 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2018-11-15 11:36:29:477 - warn: [BaseDriver] Capability 'fullReset' changed from string to boolean. This may cause unexpected behavior
+2018-11-15 11:36:29:480 - warn: [BaseDriver] The following capabilities were provided, but are not recognized by appium: takesScreenshot.
+2018-11-15 11:36:29:481 - info: [BaseDriver] Session created with session id: d75f6203-6f81-4eea-970e-75af625d2927
+2018-11-15 11:36:29:518 - info: [BaseDriver] Using local app 'D:\VodafoneIdea\BAUR32_Preprod_Build_23OCT_0934PM.apk'
+2018-11-15 11:36:29:869 - info: [AndroidDriver] Java version is: 1.8.0_161
+2018-11-15 11:36:29:876 - info: [ADB] Checking whether adb is present
+2018-11-15 11:36:29:892 - info: [ADB] Found 3 'build-tools' folders under 'C:\Users\ajith\AppData\Local\Android\Sdk\' (newest first):
+2018-11-15 11:36:29:893 - info: [ADB]     C:/Users/ajith/AppData/Local/Android/Sdk/build-tools/28.0.0-rc1
+2018-11-15 11:36:29:893 - info: [ADB]     C:/Users/ajith/AppData/Local/Android/Sdk/build-tools/27.0.3
+2018-11-15 11:36:29:895 - info: [ADB]     C:/Users/ajith/AppData/Local/Android/Sdk/build-tools/26.0.2
+2018-11-15 11:36:29:895 - info: [ADB] Using adb.exe from C:\Users\ajith\AppData\Local\Android\Sdk\platform-tools\adb.exe
+2018-11-15 11:36:29:897 - info: [AndroidDriver] Retrieving device list
+2018-11-15 11:36:29:950 - info: [AndroidDriver] Using device: ZW2227DTGP
+2018-11-15 11:36:29:951 - info: [ADB] Checking whether adb is present
+2018-11-15 11:36:29:953 - info: [ADB] Using adb.exe from C:\Users\ajith\AppData\Local\Android\Sdk\platform-tools\adb.exe
+2018-11-15 11:36:30:150 - info: [ADB] Getting device platform version
+2018-11-15 11:36:35:897 - info: [ADB] Using apksigner.bat from C:\Users\ajith\AppData\Local\Android\Sdk\build-tools\28.0.0-rc1\apksigner.bat
+2018-11-15 11:36:35:907 - info: [ADB] Using apksigner.bat from C:\Users\ajith\AppData\Local\Android\Sdk\build-tools\28.0.0-rc1\apksigner.bat
+2018-11-15 11:36:37:078 - info: [ADB] Using apksigner.bat from C:\Users\ajith\AppData\Local\Android\Sdk\build-tools\28.0.0-rc1\apksigner.bat
+2018-11-15 11:36:37:080 - info: [ADB] Using apksigner.bat from C:\Users\ajith\AppData\Local\Android\Sdk\build-tools\28.0.0-rc1\apksigner.bat
+2018-11-15 11:36:40:042 - info: [ADB] Checking whether aapt is present
+2018-11-15 11:36:40:045 - info: [ADB] Using aapt.exe from C:\Users\ajith\AppData\Local\Android\Sdk\build-tools\28.0.0-rc1\aapt.exe
+2018-11-15 11:36:41:945 - info: [ADB] Checking whether aapt is present
+2018-11-15 11:36:41:953 - info: [ADB] Using aapt.exe from C:\Users\ajith\AppData\Local\Android\Sdk\build-tools\28.0.0-rc1\aapt.exe
+2018-11-15 11:36:41:995 - warn: [ADB] Cannot read version codes of 'C:\Users\ajith\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+2018-11-15 11:36:41:996 - warn: [ADB] Cannot read version names of 'C:\Users\ajith\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+2018-11-15 11:36:45:539 - info: [ADB] Checking whether aapt is present
+2018-11-15 11:36:45:549 - info: [ADB] Using aapt.exe from C:\Users\ajith\AppData\Local\Android\Sdk\build-tools\28.0.0-rc1\aapt.exe
+2018-11-15 11:36:48:017 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-11-15 11:36:48:019 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-11-15 11:36:50:017 - info: [ADB] Checking whether aapt is present
+2018-11-15 11:36:50:025 - info: [ADB] Using aapt.exe from C:\Users\ajith\AppData\Local\Android\Sdk\build-tools\28.0.0-rc1\aapt.exe
+2018-11-15 11:36:50:367 - info: [ADB] Checking whether aapt is present
+2018-11-15 11:36:50:376 - info: [ADB] Using aapt.exe from C:\Users\ajith\AppData\Local\Android\Sdk\build-tools\28.0.0-rc1\aapt.exe
+2018-11-15 11:36:50:738 - info: [ADB] Successfully extracted 374 strings from 'D:\VodafoneIdea\BAUR32_Preprod_Build_23OCT_0934PM.apk' resources for '(default)' configuration
+2018-11-15 11:36:50:939 - info: [ADB] Using apksigner.bat from C:\Users\ajith\AppData\Local\Android\Sdk\build-tools\28.0.0-rc1\apksigner.bat
+2018-11-15 11:36:50:941 - info: [ADB] Using apksigner.bat from C:\Users\ajith\AppData\Local\Android\Sdk\build-tools\28.0.0-rc1\apksigner.bat
+2018-11-15 11:36:56:917 - info: [ADB] Checking whether aapt is present
+2018-11-15 11:36:56:923 - info: [ADB] Using aapt.exe from C:\Users\ajith\AppData\Local\Android\Sdk\build-tools\28.0.0-rc1\aapt.exe
+2018-11-15 11:36:56:974 - info: [AndroidDriver] Performing fast reset on 'com.mventus.selfcare.activity'
+2018-11-15 11:37:03:609 - info: [UiAutomator2] Starting uiautomator2 server 1.7.0
+2018-11-15 11:37:03:610 - info: [UiAutomator2] Using UIAutomator2 server from 'C:\Users\ajith\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.7.0.apk' and test from 'C:\Users\ajith\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2018-11-15 11:37:03:612 - info: [UiAutomator2] Running command: 'adb -s ZW2227DTGP shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+2018-11-15 11:37:03:621 - info: [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+2018-11-15 11:37:23:080 - warn: [UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: Error: Trying to proxy a session command without session id
+2018-11-15 11:37:24:892 - info: [HTTP] <-- POST /wd/hub/session 400 55442 ms - 1086
+2018-11-15 11:37:24:892 - info: [HTTP] 
